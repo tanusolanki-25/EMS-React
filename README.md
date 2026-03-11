@@ -1,4 +1,4 @@
-# Employee Dashboard (React + Vite)
+# Employee Dashboard 
 ## 🌐 Live Demo 
 https://ems-react-lake.vercel.app/
 ## 📌 Project Overview
