@@ -2,7 +2,7 @@ import React from 'react'
 
 const AcceptTask = ({ data }) => {
   return (
-    <div className="shrink-0 w-[300px] p-5 bg-[#1f1f1f] rounded-2xl shadow-md ">
+    <div className="shrink-0 h-[300px] w-[300px] p-5 bg-[#1f1f1f] rounded-2xl shadow-md ">
 
       {/* Top */}
       <div className="flex justify-between items-center">
@@ -26,7 +26,7 @@ const AcceptTask = ({ data }) => {
 
       {/* Buttons */}
       <div className="flex justify-between mt-6 gap-2">
-        <button className="bg-green-600 hover:bg-green-700 text-white text-xs px-3 py-2 rounded-lg w-full transition">
+        <button className="bg-blue-600 hover:bg-blue-700 text-white text-xs px-3 py-2 rounded-lg w-full transition">
           Complete
         </button>
         <button className="bg-red-600 hover:bg-red-700 text-white text-xs px-3 py-2 rounded-lg w-full transition">

@@ -2,11 +2,11 @@ import React from 'react'
 
 const Complete = ({ data }) => {
   return (
-    <div className="shrink-0 w-[300px] p-5 bg-[#1f1f1f] rounded-2xl shadow-md ">
+    <div className="shrink-0 h-[300px] w-[300px] p-5 bg-[#1f1f1f] rounded-2xl shadow-md ">
 
       {/* Top */}
       <div className="flex justify-between items-center">
-        <span className="bg-green-600 text-xs px-3 py-1 rounded-full text-white">
+        <span className="bg-blue-600 text-xs px-3 py-1 rounded-full text-white">
           {data.category}
         </span>
         <span className="text-sm text-gray-400">
@@ -26,7 +26,7 @@ const Complete = ({ data }) => {
 
       {/* Status */}
       <div className="mt-6">
-        <button className="bg-green-600 text-white text-sm py-2 rounded-lg w-full cursor-default">
+        <button className="bg-blue-600 text-white text-sm py-2 rounded-lg w-full cursor-default">
           ✔ Completed
         </button>
       </div>

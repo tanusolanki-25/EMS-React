@@ -2,7 +2,7 @@ import React from 'react'
 
 const NewTask = ({ data }) => {
   return (
-    <div className="shrink-0 w-[300px] p-5 bg-[#1f1f1f] rounded-2xl shadow-md hover:scale-105 transition">
+    <div className="shrink-0 h-[300px] w-[300px] p-5 bg-[#1f1f1f] rounded-2xl shadow-md hover:scale-105 transition">
 
       {/* Top */}
       <div className="flex justify-between items-center">
