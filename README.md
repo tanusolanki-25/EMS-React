@@ -1,62 +1,80 @@
-# EMS-React
-
-![React](https://img.shields.io/badge/React-18.2.0-blue) ![Vite](https://img.shields.io/badge/Vite-4.3.9-green) ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)  
-
-**EMS-React** is a web application built with **React** and **Vite** that allows employees to manage tasks and admins to monitor them efficiently. It provides a secure login, an employee dashboard for creating tasks, and an admin dashboard to manage all tasks.
-
----
-
-## 📝 Features
-
-- **Login System**  
-  Employees log in with their credentials to access the dashboard.  
-
-- **Employee Dashboard**  
-  - View assigned tasks  
-  - Create new tasks  
-  - Tasks automatically sent to the admin dashboard  
-
-- **Admin Dashboard**  
-  - View all tasks submitted by employees  
-  - Track task status (active, completed, failed, etc.)  
-
-- **Fast Development Setup**  
-  - Built with **Vite** for fast development  
-  - Hot Module Replacement (HMR) for quick UI updates  
-
-- **Code Quality**  
-  - ESLint rules included  
-  - Optional TypeScript integration for type safety  
+# Employee Dashboard 
+## 🌐 Live Demo 
+https://ems-react-lake.vercel.app/
+## 📌 Project Overview
+This is an Employee Management Dashboard built using React and Vite.  
+The application provides separate dashboards for Admin and Employees with login authentication and task management functionality.
 
 ---
 
-## 🛠 Tech Stack
+## 🚀 Features
 
-- **Frontend:** React, Vite  
-- **Styling:** Tailwind CSS (if used)  
-- **State Management:** React Hooks / Context API  
-- **Routing:** React Router (if used)  
-- **Backend:** Optional / Local storage  
+### 👨‍💼 Admin Panel
+- Secure admin login  
+- Create and assign tasks  
+- Separate admin dashboard  
+
+### 👩‍💻 Employee Panel
+- Employee login system  
+- View assigned tasks  
+- Simple and user-friendly UI  
 
 ---
 
-## 🚀 Project Setup
+## 🔐 Login Credentials
 
-1. **Clone the repository**
+### Admin Login
+Email: admin@me.com  
+Password: 123  
+
+### Employee Login
+Email: employee1@example.com  
+Password: 123  
+
+Email: employee2@example.com  
+Password: 123  
+
+Email: employee3@example.com  
+Password: 123  
+
+---
+
+## 🛠️ Technologies Used
+- Tailwind CSS
+- React  
+- Vite  
+- JavaScript  
+- HTML  
+- CSS  
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone Repository
 ```bash
-git clone https://github.com/solankitanu532/ems-react.git
-cd ems-react
+git clone <your-repository-link>
+```
 
-## Folder Structure
-ems-react/
-│
-├─ public/          # Static assets like images, icons
-├─ src/
-│   ├─ components/  # Reusable React components
-│   ├─ pages/       # Employee & Admin dashboards, Login page
-│   ├─ context/     # React Context for state management
-│   ├─ App.jsx
-│   └─ main.jsx
-├─ package.json
-└─ vite.config.js
+### 2️⃣ Go to Project Folder
+```bash
+cd project-folder
+```
 
+### 3️⃣ Install Dependencies
+```bash
+npm install
+```
+
+### 4️⃣ Run Project
+```bash
+npm run dev
+```
+
+---
+
+## 📚 Learning Outcome
+- React Components Structure
+- Login based dashboard implementation  
+- Task management UI  
+- Using Vite for fast development  
