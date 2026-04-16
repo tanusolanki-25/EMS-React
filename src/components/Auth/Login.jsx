@@ -10,7 +10,7 @@ const Login = ({handleLogin}) => {
       setPassword('')
     }
   return (
-    <div className='flex h-screen w-screen items-center justify-center'>
+    <div className='flex h-screen w-screen items-center bg-black justify-center'>
         <div className='border-2 rounded-xl border-blue-600'>
                <form onSubmit={(e)=>{
                   submitHandler(e)

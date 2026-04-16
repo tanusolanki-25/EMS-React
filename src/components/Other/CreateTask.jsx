@@ -10,7 +10,6 @@ const CreateTask = () => {
   const [taskDate, setTaskDate] = useState('')
   const [assignto, setAssignto] = useState('')
   const [category, setCategory] = useState('')
-  const [newTask, setNewTask] = useState({})
 
   const submitHandler = (e) => {
     e.preventDefault()
@@ -32,7 +31,6 @@ const CreateTask = () => {
         elem.taskCount.newTask += 1
       }
     })
-
     setUserData([...userData])
 
     // reset
@@ -49,11 +47,7 @@ const CreateTask = () => {
       <h2 className='text-2xl font-semibold text-white mb-6'>Create New Task</h2>
 
       <form onSubmit={submitHandler} className='flex flex-wrap justify-between gap-6'>
-
-        {/* Left Section */}
         <div className='w-full md:w-[48%] space-y-4'>
-
-          {/* Input Field */}
           <div>
             <label className='text-sm text-gray-400'>Task Title</label>
             <input
@@ -98,10 +92,7 @@ const CreateTask = () => {
           </div>
 
         </div>
-
-        {/* Right Section */}
         <div className='w-full md:w-[48%] flex flex-col'>
-
           <label className='text-sm text-gray-400'>Description</label>
           <textarea
             value={taskDescription}

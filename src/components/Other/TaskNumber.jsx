@@ -1,8 +1,8 @@
+
 const TaskNumber = ({ data }) => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-6">
 
-      {/* New Task */}
       <div className="bg-[#1f1f1f] p-6 rounded-2xl shadow-md hover:scale-105 transition">
         <h2 className="text-3xl font-bold text-yellow-400">
           {data.taskCount.newTask}

@@ -6,18 +6,13 @@ import FailedTask from './FailedTask'
 const Tasklist = ({ data }) => {
   return (
     <div className="mt-8">
-
-      {/* Heading */}
-      <h2 className="text-2xl font-semibold text-white mb-4">
+      <h2 className="text-2xl h-full font-semibold text-white mb-4">
         Your Tasks
       </h2>
-
-      {/* Scroll Container */}
       <div
         id="tasklist"
-        className="flex gap-5 overflow-x-auto pb-4 scrollbar-thin scrollbar-thumb-gray-600 scrollbar-track-transparent"
+        className="flex gap-5 pt-4 overflow-x-auto pb-4 scrollbar-thin scrollbar-thumb-gray-600 scrollbar-track-transparent"
       >
-
         {data.tasks.length === 0 ? (
           <p className="text-gray-400">No tasks available</p>
         ) : (

@@ -6,10 +6,7 @@ const AllTask = () => {
 
   return (
     <div className='bg-gradient-to-br from-[#1f1f1f] to-[#2c2c2c] p-6 rounded-2xl mt-2 shadow-xl'>
-
       <h2 className='text-2xl font-semibold text-white mb-4'>Employee Task Overview</h2>
-
-      {/* Header */}
       <div className='hidden md:flex bg-indigo-600 text-white py-3 px-4 rounded-lg font-semibold'>
         <h2 className='w-1/5'>Employee</h2>
         <h2 className='w-1/5 text-center'>New</h2>
@@ -18,7 +15,6 @@ const AllTask = () => {
         <h2 className='w-1/5 text-center'>Failed</h2>
       </div>
 
-      {/* Data */}
       <div className='mt-2 space-y-2 max-h-64 overflow-auto'>
 
         {userData.map((elem, index) => {

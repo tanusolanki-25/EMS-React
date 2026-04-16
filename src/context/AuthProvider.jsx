@@ -3,6 +3,9 @@ import {createContext} from 'react'
 import { getLocalStorage, setLocalStorage } from "../utills/LocalStorage"
 
 export const AuthContext = createContext()
+
+
+
 const AuthProvider = ({children}) => {
   // localStorage.clear()
    
@@ -15,10 +18,9 @@ const AuthProvider = ({children}) => {
 
   return (
     <div>
-       <AuthContext.Provider value={[userData,setUserData]}>
+       <AuthContext.Provider value={[userData, setUserData]}>
         {children}
        </AuthContext.Provider>
-       
     </div>
   )
 }

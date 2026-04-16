@@ -1,18 +1,17 @@
-const Header = (props) => {
+const Header = (props) => { 
 
   const logOutUser = () => {
     localStorage.setItem('loggedInUser', '');
-    props.changeUser('');
+    props.setUser('');
   };
 
   return (
     <div className="flex items-center justify-between bg-gradient-to-r from-indigo-500 to-purple-600 p-5 rounded-xl shadow-lg">
       
-      {/* Left Side */}
       <div>
         <h1 className="text-lg text-gray-200">Welcome back,</h1>
         <h2 className="text-3xl font-bold tracking-wide">
-          {props.username || "User"} 👋
+          {props.user == 'Admin' ? props.user : props.data.firstName} 👋
         </h2>
       </div>
 
